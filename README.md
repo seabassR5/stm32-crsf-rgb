@@ -2,7 +2,11 @@
 
 Register-level C firmware (no HAL, no Arduino core) for an **STM32F446RE Nucleo-64** that reads stick positions from a **RadioMaster ExpressLRS receiver** over **CRSF** and maps them to RGB LED brightness.
 
-▶️ **Demo video:** TODO
+▶️ **Demo video:** 
+
+https://github.com/user-attachments/assets/7beb57e2-9f98-4048-b657-c5e1f0d5d307
+
+
 
 ## What it does
 
