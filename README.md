@@ -49,9 +49,3 @@ Receiver powered from the Nucleo's 5V and GND. UART lines cross over: receiver T
 
 Built with LLM-assisted development: I gave the model the STM32F446 datasheet and the RM0390 reference manual and iterated on the firmware with it. The firmware worked end to end on first integration.
 
-## Possible improvements
-
-- Replace software PWM with hardware timer PWM, so brightness doesn't depend on loop timing.
-- Add a failsafe that dims or blinks the LEDs if no valid frame arrives within ~100 ms, instead of holding the last values.
-- Use DMA with idle-line detection instead of a per-byte interrupt.
-- Decode all 16 channels and use the aux switches for mode changes.
